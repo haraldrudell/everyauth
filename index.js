@@ -1,7 +1,7 @@
 var connect = require('connect')
   , __pause = connect.utils.pause
   , everyauth = module.exports = {};
-
+console.log('patched for node 0.5')
 // TODO Deprecate exposure of Promise
 everyauth.Promise = require('./lib/promise');
 
